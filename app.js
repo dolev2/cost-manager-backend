@@ -4,11 +4,17 @@ const express = require('express');
 
 const connectDB = require('./config/db');
 
+const usersRoutes = require('./routes/usersRoutes');
+const costsRoutes = require('./routes/costsRoutes');
+
 const app = express();
 
 connectDB();
 
 app.use(express.json());
+
+app.use('/api/users', usersRoutes);
+app.use('/api/costs', costsRoutes);
 
 app.get('/', (req, res) => {
     res.json({
