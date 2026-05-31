@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     });
 });
 
-const PORT = process.env.ABOUT_PORT || 3003;
+const PORT = process.env.PORT || process.env.ABOUT_PORT || 3003;
 
 app.listen(PORT, () => {
     console.log(`About Service running on port ${PORT}`);

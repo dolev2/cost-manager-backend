@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     });
 });
 
-const PORT = process.env.LOGS_PORT || 3002;
+const PORT = process.env.PORT || process.env.LOGS_PORT || 3002;
 
 app.listen(PORT, () => {
     console.log(`Logs Service running on port ${PORT}`);

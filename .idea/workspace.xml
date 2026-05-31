@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e88384-2a71-4261-933a-dcb7f12bfed9" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/controllers/aboutController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/costsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/logsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/logMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/logModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/reportModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/aboutRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/costsRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/logsRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/about-services/aboutApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/costs-services/costsApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/logs-services/logsApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/users-services/usersApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dolev2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dolev2&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dolev2/cost-manager-backend.git",
-    "accountId": "ad7ae2c0-47bf-41b0-b518-715cd73957de"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dolev2/cost-manager-backend.git&quot;,
+    &quot;accountId&quot;: &quot;ad7ae2c0-47bf-41b0-b518-715cd73957de&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3EEBYmWkTGPUf6sb8z4jiX38IuO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
@@ -95,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779733898506</updated>
       <workItem from="1779733899572" duration="17867000" />
+      <workItem from="1780250041134" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

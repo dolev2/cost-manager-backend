@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     });
 });
 
-const PORT = process.env.USERS_PORT || 3000;
+const PORT = process.env.PORT || process.env.USERS_PORT || 3000;
 
 app.listen(PORT, () => {
     console.log(`Users Service running on port ${PORT}`);

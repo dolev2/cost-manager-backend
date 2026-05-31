@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:users": "node services/users-services/usersApp.js",
+    "start:costs": "node services/costs-services/costsApp.js",
+    "start:logs": "node services/logs-services/logsApp.js",
+    "start:about": "node services/about-services/aboutApp.js",
+    "dev:users": "nodemon services/users-services/usersApp.js",
+    "dev:costs": "nodemon services/costs-services/costsApp.js",
+    "dev:logs": "nodemon services/logs-services/logsApp.js",
+    "dev:about": "nodemon services/about-services/aboutApp.js"
   },
   "keywords": [],
   "author": "",
