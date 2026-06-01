@@ -1,5 +1,5 @@
 const User = require('../models/userModel');
-const Cost = require('../models/costModel');
+const Cost = require('../models/CostModel');
 
 const getUsers = async (req, res) => {
     try {
