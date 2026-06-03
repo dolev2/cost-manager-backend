@@ -1,4 +1,8 @@
+/*
+ * Returns information about the development team members.
+ */
 const getAbout = (req, res) => {
+    // Send team members details as JSON response
     res.json([
         {
             first_name: 'Dolev',
@@ -11,6 +15,7 @@ const getAbout = (req, res) => {
     ]);
 };
 
+// Export controller function
 module.exports = {
     getAbout
 };

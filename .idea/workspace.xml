@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e88384-2a71-4261-933a-dcb7f12bfed9" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/tests/about.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/aboutController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/aboutController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/costsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/costsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/logsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/logsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/usersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/usersController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/logMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/logMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/CostModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/CostModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/logModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/logModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/reportModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/reportModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/aboutRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/aboutRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/costsRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/costsRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/logsRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/logsRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/usersRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/usersRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/about-services/aboutApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/about-services/aboutApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/costs-services/costsApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/costs-services/costsApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/logs-services/logsApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/logs-services/logsApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users-services/usersApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/users-services/usersApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/about.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/about.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/costs.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/costs.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/logs.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/users.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/users.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +67,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;omri-features&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dolev\WebstormProjects\cost-manager-backend\services\users-services" />
